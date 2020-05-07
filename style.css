@@ -1,0 +1,345 @@
+* {
+  font-family: "Open Sans";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* TOP BLUE HEADER GOES HERE */
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #316dc3;
+  color: white;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+div.logos {
+  margin: 5px;
+  padding: 0 10px;
+  letter-spacing: 0.9em;
+  margin-left: 40px;
+}
+div.logos:hover {
+  cursor: pointer;
+}
+
+div.text {
+  margin: 5px;
+}
+
+div.donation {
+  margin-right: 50px;
+}
+
+div.donation button {
+  color: #6a7900;
+  padding: 5px 10px;
+  font-size: 0.7rem;
+}
+div.donation button:hover {
+  cursor: pointer;
+}
+
+/* NAVBAR MENU GOES HERE */
+
+.navbar {
+  display: flex;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background-color: #fff;
+}
+div.saylani-logo {
+  padding: 10px;
+  margin-left: 30px;
+  width: 25%;
+}
+div.saylani-logo img {
+  height: 55px;
+}
+
+div.menu {
+  margin-left: 30px;
+}
+
+div.menu ul,
+a {
+  display: flex;
+  list-style: none;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 24px;
+  font-size: small;
+}
+a.home {
+  margin-top: 10px;
+  padding: 7px 17px;
+  border-radius: 20px;
+  background-color: #316dc3;
+  color: white;
+}
+
+div.menu a:hover {
+  padding: 7px 17px;
+  margin-top: 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: #316dc3;
+}
+
+/* BIG IMAGE GOES HERE */
+
+div.hero-image img {
+  height: 65vh;
+  width: 100%;
+}
+
+/* TICKER GOES HERE */
+
+marquee.ticker {
+  background-color: #316dc3;
+  color: white;
+  height: 28px;
+  padding: 2px 5px 8px 5px;
+  margin: 5px 40px;
+  font-size: 0.9em;
+}
+
+span#green-text {
+  color: #2ef86e;
+}
+span#blue-text {
+  color: #1835e2;
+}
+span#blue-text,
+#green-text:hover {
+  cursor: pointer;
+}
+
+/* INTRODUCTION GOES HERE */
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(243, 243, 243);
+}
+h1.introduction {
+  margin: 50px 0 10px 0;
+}
+span#intro {
+  color: #316dc3;
+  font-size: 1.1em;
+  font-family: "Merriweather";
+}
+span#duction {
+  color: #427900;
+  font-size: 1.1em;
+  font-family: "Merriweather";
+}
+
+p.small-img {
+  color: #427900;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+div.intro-text {
+  color: #787878;
+  font-size: 0.95em;
+  margin: 0 150px 100px;
+  line-height: 2em;
+}
+
+/* COUNTER GOES HERE */
+
+.main-counter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  height: 33vh;
+  width: 100%;
+  background-color: #2755e9;
+  color: white;
+}
+
+div.main-counter h1 {
+  font-family: "Merriweather";
+  font-size: 3em;
+  padding: 5px 0 20px 0;
+}
+div.main-counter h4 {
+  font-family: "Merriweather";
+}
+
+span#monthly {
+  color: #00ff00;
+  font-family: "Merriweather";
+}
+
+/* what we are doing goes here */
+
+div.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+div.box {
+  height: 180px;
+  width: 350px;
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 30px;
+  color: #316dc3;
+  text-align: center;
+}
+p.box-title {
+  font-family: "Merriweather";
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+/* MISSIONS GOES HERE */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin: 40px 0 0 0;
+  flex-wrap: wrap;
+}
+.wrapper > div {
+  padding: 20px;
+}
+.wrapper h2 {
+  font-family: "Merriweather";
+}
+
+div.mission {
+  margin: 0 0 0 35px;
+  color: #316dc3;
+}
+div.wapper h2,
+span {
+  color: #427900;
+}
+
+.small-containers {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 20px;
+}
+.small-containers > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 65px;
+  width: 318px;
+  margin: 10px;
+  color: #316dc3;
+  background-color: rgb(240, 240, 240);
+}
+p#names {
+  margin-left: 20px;
+}
+img#name-img {
+  margin-left: 20px;
+}
+
+div.small-containers p {
+  font-family: "Merriweather";
+}
+
+div.upcoming-events {
+  padding: 20px;
+  color: #316dc3;
+}
+.upcoming-events marquee {
+  margin: 10px 0 0 0;
+  font-size: 0.95em;
+  color: #787878;
+  background-color: rgb(252, 252, 252);
+  width: 300px;
+}
+div.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
+div.images {
+  display: flex;
+  justify-content: center;
+}
+div.images > img {
+  height: 150px;
+  width: 225px;
+  margin: 2px;
+}
+
+div.contact {
+  display: flex;
+  background-color: #25272e;
+  font-family: "Open Sans";
+  padding: 50px;
+  margin-top: 100px;
+}
+div.contact > h5 {
+  font-family: "Merriweather" !important;
+}
+div.contact-1 {
+  color: #bbbbbb;
+  font-size: 0.95em;
+  padding: 50px;
+  margin-top: 40px;
+  line-height: 1.7em;
+}
+div.contact-1 > p > i {
+  color: green;
+}
+
+div.contact-2 > h5 {
+  color: #fff;
+  margin-top: 40px;
+  font-family: "Merriweather";
+  font-size: medium;
+  width: 300px;
+}
+div.contact-3 > h5 {
+  color: #fff;
+  margin-top: 40px;
+  font-family: "Merriweather";
+  font-size: medium;
+}
+div.footer-logo {
+  display: flex;
+  margin-top: 10px;
+}
+div.footer-logo > a {
+  color: #fff;
+  background-color: #316dc3;
+  border: none;
+  border-radius: 50%;
+
+  text-align: center;
+  margin: 5px;
+}
+div.go-top {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+}
+div.go-top > a {
+  color: #fff;
+  background-color: gray;
+}
